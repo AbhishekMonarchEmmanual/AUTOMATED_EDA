@@ -2,7 +2,7 @@ import streamlit as st
 import os,sys
 import numpy as np
 import pandas as pd 
-from profiling_frame import *
+from eda_app.profiling_frame import *
 import subprocess
 from trycatch.exception import SystemException
 from trycatch import logger
